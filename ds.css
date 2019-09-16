@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+body {
+  margin: auto;
+  background: #cac2de;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', serif;
+}
+ul {
+  height: 30px;
+  opacity: 1;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+}
+
+li {
+  padding: 0.8em;
+  color: #da5e63;
+  font-weight: 700;
+}
+#nav-bar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  
+}
+#nav-link{
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  padding: 2.5em;
+  opacity: 1;
+}
+.nav-link:hover{
+  color: #da5e63;
+  opacity: 1;
+}
+h1 {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h2 {
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 40px;
+  padding-top: 70px;
+  padding-bottom:10px;
+  color: #da5e63;
+}
+h4 {
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin: auto;
+  color: #28262c;
+  width: 75%;
+}
+
+strong {
+  font-weight: 900;
+}
+a:visited {
+  color: white;
+}
+#main {
+  margin: auto;
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  color: #da5e63;
+}
+#main p {
+  padding-bottom: 5px;
+  text-align: center;
+  overflow: visible;
+  position: relative;
+  color: #28262c;
+  font-size: 20px;
+}
+
+#title {
+  font-size: 90px;
+  font-family: 'Julius Sans One', arial;
+  font-weight: 800;
+  text-shadow: 3px 3px #57487f;
+  letter-spacing: 5px;
+}
+#title:hover {
+  opacity: 0.5;
+  cursor: default;
+}
+#img-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#image {
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+#flyer {
+  width: 50%;
+  padding-bottom: 50px;
+  display: inline;
+  border: 0;
+}
+#tribute-info {
+  font-size: 15px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+@media only screen and (max-width: 767px) {
+ 
+  h1 {
+    font-size: 20px;
+    position: relative;
+  }
+  #title {
+  font-size: 30px;
+  text-align: center;
+}
+  h2 {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  ul {
+    font-size: 12px;
+    line-height: 1.0;
+  }
+  li {
+    padding-bottom: 10px;
+  }
+  #img-caption {
+    font-size: 9px;
+  }
+}
